@@ -24,6 +24,7 @@
 | -------- | ---------------------------- |
 | 实例类型     | t4g.large (ARM, 2 vCPU, 8GB) |
 | 系统       | Ubuntu 24.04 LTS             |
+
 关于如何部署，现在有很多相关介绍的帖子，我就不再赘述。
 可以参阅亚马逊云科技小程序里的文章：低成本易上手的OpenClaw，在亚马逊云科技一键部署！
 #小程序://亚马逊云科技/hqXjJhQl2jktPup
@@ -43,6 +44,7 @@
 | AmazonEC2FullAccess | 创建/管理 EC2、EIP |
 | IAMFullAccess | 管理 IAM 策略 |
 | AmazonBedrockFullAccess | 调用 Claude 模型 |
+
 （这是测试时的权限，正式生产中需要遵循最小化权限的原则，上面的权限是偏大的。）
 就这样。接下来的事情，全部在 Telegram 聊天里完成。
 
@@ -321,4 +323,5 @@ aws ec2 replace-iam-instance-profile-association \
 ## 参考
 
 - [把龙虾部署到云上：一个值得认真考虑的选择 — AWS 官方博客](https://aws.amazon.com/cn/blogs/china/deploying-moltbot-to-the-cloud-a-worthwhile-choice/)
-#小程序://亚马逊云科技/hqXjJhQl2jktPup
+
+- #小程序://亚马逊云科技/hqXjJhQl2jktPup
